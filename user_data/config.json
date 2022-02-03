@@ -98,8 +98,7 @@
         "listen_port": 5000,
         "verbosity": "error",
         "enable_openapi": false,
-        "jwt_secret_key": "b0a84ce3f04e9002a70ad1459819f0dcb73a9ea41c6f7920db70c0d278939398",
-        "CORS_origins": ["https://protected-reef-10272.herokuapp.com"]
+        "CORS_origins": []
     },
     "bot_name": "freqtrade",
     "initial_state": "running",
