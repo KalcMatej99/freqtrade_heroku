@@ -1,8 +1,8 @@
 
 {
-    "max_open_trades": 1,
+    "max_open_trades": 2,
     "stake_currency": "USDT",
-    "stake_amount": 800,
+    "stake_amount": 400,
     "tradable_balance_ratio": 0.99,
     "fiat_display_currency": "USD",
     "dry_run": true,
@@ -34,7 +34,8 @@
             "rateLimit": 200
         },
         "pair_whitelist": [
-            "BTC/USDT"
+            "BTC/USDT",
+            "ETH/USDT"
         ],
         "pair_blacklist": [
             "MDT/BTC",
@@ -66,7 +67,7 @@
         "remove_pumps": false
     },
     "telegram": {
-        "enabled": true,
+        "enabled": false,
         "notification_settings": {
             "status": "silent",
             "warning": "on",

@@ -134,3 +134,5 @@ user_data/model_weights
 user_data/strategies
 user_data/plot
 user_data/backtest_results
+
+.env_
